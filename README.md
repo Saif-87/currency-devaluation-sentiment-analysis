@@ -27,11 +27,11 @@ This was a collaborative project:
 
 - **News collection, sentiment analysis & scoring** — built by me
 - **Macroeconomic indicators, forex, and financial data integration** — built by the team
-- The collection and sentiment pipeline was later packaged into an object-oriented version, worked on together with an intern from a different department (see `packaged-version/`)
+- The collection and sentiment pipeline was later packaged into an object-oriented version, worked on together with an intern from a different department (see `packaged_version/`)
 
 ## Packaged Version
 
-The `packaged-version/` folder contains an OOP-refactored version of the pipeline, built by me and a teammate. I identified its potential for reuse across different asset classes and decided to turn it into a reusable package for production use. The functional scripts above reflect my original implementation and reasoning.
+The `packaged_version/` folder contains an OOP-refactored version of the pipeline, built by me and a teammate. I identified its potential for reuse across different asset classes and decided to turn it into a reusable package for production use. The functional scripts above reflect my original implementation and reasoning.
 
 ## Tech Stack
 
