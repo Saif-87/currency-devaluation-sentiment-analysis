@@ -27,7 +27,7 @@ This was a collaborative project:
 
 ## Packaged Version
 
-The `packaged-version/` folder contains an OOP-refactored version of the pipeline for production use, built by me and a teammate. It's included for completeness but the functional scripts above reflect my original implementation and reasoning.
+The `packaged-version/` folder contains an OOP-refactored version of the pipeline, built by me and a teammate. I identified its potential for reuse across different asset classes and decided to turn it into a reusable package for production use. The functional scripts above reflect my original implementation and reasoning
 
 ## Tech Stack
 
