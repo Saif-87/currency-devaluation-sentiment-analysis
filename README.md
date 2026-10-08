@@ -39,7 +39,7 @@ This was a collaborative project:
 
 ## Packaged Version
 
-The `packaged_version/` folder contains an OOP-refactored version of the pipeline, built by me and a teammate. I identified its potential for reuse across different asset classes and decided to turn it into a reusable package for production use. The functional scripts above reflect my original implementation and reasoning.
+The `packaged_version.py` folder contains an OOP-refactored version of the pipeline, built by me and a teammate. I identified its potential for reuse across different asset classes and decided to turn it into a reusable package for production use. The functional scripts above reflect my original implementation and reasoning.
 
 ## Tech Stack
 
