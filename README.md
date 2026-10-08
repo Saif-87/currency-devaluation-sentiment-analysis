@@ -21,6 +21,14 @@ I built the news collection, sentiment analysis, and scoring pipeline:
 
 The collection step is built around a weekly run cycle, using a flow-managed date variable to automatically compute the correct Monday–Sunday window each time it runs. A single click kicks off the full week's scrape across all countries in parallel, and results are written directly into the dataset — no manual pulling or reformatting needed, so leadership and non-technical stakeholders can view up-to-date results on demand.
 
+## Monitoring & Logging
+
+Long runs can process thousands of articles, so I built in clear run-time visibility:
+
+- **Progress bars** (`tqdm`) for both phases — fetching/translation and sentiment/NER — showing how many articles are done and how long is left
+- **Emoji status markers** in the logs (✅ success, ⚠️ retries/warnings, ❌ failures) so issues can be spotted at a glance when scrolling through Dataiku run logs
+- **Checkpoint messages** every 50 articles, plus a final summary of total time, success rate and articles processed per minute
+  
 ## Team
 
 This was a collaborative project:
